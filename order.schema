@@ -1,0 +1,4 @@
+type order (
+  billing_address address
+  items item array
+)
