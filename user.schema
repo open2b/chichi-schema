@@ -1,10 +1,11 @@
 type user (
-    first_name text(300)     -- First name
+    firstname text(300)     -- First name
         aliases: name
-    second_name text(300)    -- Second name
+    secondname text(300)    -- Second name
         default: 'abc'
-    last_name  text(300)     -- Last name
+    lastname  text(300)     -- Last name
     email      text(300)     -- Email
+    birthday date            -- Birthday
     addresses  array         -- Addresses
         aliases: billing_address
         street text(60)         -- Street
