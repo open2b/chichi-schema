@@ -1,6 +1,0 @@
-type add_to_cart_event (
-    sku text(60)
-        aliases: code
-    quantity int
-    price decimal(8,2)
-)
